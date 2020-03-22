@@ -13,6 +13,7 @@ public class ParkingLot {
         this.capacity = capacity;
         this.parkingMap = new HashMap<>();
 
+        emptySlots = new TreeSet<>();
         for (int i=1;i<=capacity;i++) {
             emptySlots.add(i);
         }
