@@ -31,6 +31,7 @@ public class ParkingControllerImpl implements ParkingController {
     @Override
     public void getParkingLotStatusController() {
         HashMap<Integer, Vehicle> parkingMap = parkingService.getParkingLotStatus();
+        System.out.println("Slot No.\tRegistration No\tColour");
         parkingMap.forEach((slotNumber, vehicleParked) -> {
             System.out.println(slotNumber + "\t" + vehicleParked.getRegistrationNumber() + "\t" + vehicleParked.getColour());
         });

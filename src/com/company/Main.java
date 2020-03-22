@@ -2,9 +2,6 @@ package com.company;
 
 import com.company.action_processor.ActionProcessor;
 import com.company.action_processor.impl.ActionProcessorImpl;
-import com.company.controller.ParkingController;
-import com.company.controller.impl.ParkingControllerImpl;
-import com.company.model.Vehicle;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
