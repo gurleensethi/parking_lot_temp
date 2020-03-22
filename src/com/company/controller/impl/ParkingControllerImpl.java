@@ -31,21 +31,26 @@ public class ParkingControllerImpl implements ParkingController {
     @Override
     public void getParkingLotStatusController() {
         HashMap<Integer, Vehicle> parkingMap = parkingService.getParkingLotStatus();
-//        for (int i=0;)
+        parkingMap.forEach((slotNumber, vehicleParked) -> {
+            System.out.println(slotNumber + "\t" + vehicleParked.getRegistrationNumber() + "\t" + vehicleParked.getColour());
+        });
     }
 
     @Override
-    public List<String> getRegistrationNosFromColorController(String colour) {
-        return null;
+    public void getRegistrationNosFromColorController(String colour) {
+        List<String> regNoList = parkingService.getRegistrationNosFromColor(colour);
+        for (int i=0;i<regNoList.size();i++) {
+            System.out.print(regNoList.get(i) + "\t");
+        }
+        System.out.print("\n");
     }
 
     @Override
-    public Integer getSlotNoFromRegistrationNoController(String registrationNo) {
-        return null;
+    public void getSlotNoFromRegistrationNoController(String registrationNo) {
+        System.out.println("Slot Number: " + parkingService.getSlotNoFromRegistrationNo(registrationNo));
     }
 
     @Override
-    public List<Integer> getSlotNumbersFromColorController(String colour) {
-        return null;
+    public void getSlotNumbersFromColorController(String colour) {
     }
 }

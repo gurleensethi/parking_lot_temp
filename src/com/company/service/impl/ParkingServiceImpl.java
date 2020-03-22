@@ -37,7 +37,7 @@ public class ParkingServiceImpl implements ParkingService {
         if (parkingLot.getVehicle(slotNumber) == null) {
             return false;
         }
-        parkingLot.setParkingMapEntry(slotNumber, null);
+        parkingLot.unSetParkingMapEntry(slotNumber);
         parkingLot.vacateSlot(slotNumber);
         return true;
     }

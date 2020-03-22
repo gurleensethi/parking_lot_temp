@@ -35,6 +35,10 @@ public class ParkingLot {
         parkingMap.put(slotNumber, vehicleParked);
     }
 
+    public void unSetParkingMapEntry(Integer slotNumber) {
+        parkingMap.remove(slotNumber);
+    }
+
     public int getNearestFreeSlot() {
         if (emptySlots.isEmpty()) {
             return -1;
