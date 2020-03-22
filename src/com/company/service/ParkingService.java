@@ -2,17 +2,18 @@ package com.company.service;
 
 import com.company.model.Vehicle;
 
+import java.util.HashMap;
 import java.util.List;
 
 public interface ParkingService {
 
     public void createParkingLot(int capacity);
 
-    public Boolean parkVehicle(Vehicle vehicle);
+    public boolean parkVehicle(Vehicle vehicleToBeParked);
 
-    public Boolean unParkVehicle(int slotNumber);
+    public boolean unParkVehicle(int slotNumber);
 
-    public void getParkingLotStatus();
+    public HashMap<Integer, Vehicle> getParkingLotStatus();
 
     public List<String> getRegistrationNosFromColor(String colour);
 
