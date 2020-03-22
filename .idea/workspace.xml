@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29767192-9531-45ee-b705-e2f174f131d9" name="Default Changelist" comment="" />
+    <list default="true" id="29767192-9531-45ee-b705-e2f174f131d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +17,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZRYJ0ZjKNHmYoCC149VIpkrIxj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -51,10 +61,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584861937548">
+    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1584862982986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584861937548" />
+    <state x="533" y="148" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584862982986" />
     <state x="533" y="159" key="#com.intellij.ide.util.MemberChooser/0.23.1440.827@0.23.1440.827" timestamp="1584804607021" />
     <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1584854508627">
       <screen x="0" y="23" width="1440" height="827" />
