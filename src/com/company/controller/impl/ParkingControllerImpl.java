@@ -27,6 +27,8 @@ public class ParkingControllerImpl implements ParkingController {
     public boolean unParkVehicleController(int slotNumber) {
         return parkingService.unParkVehicle(slotNumber);
     }
+    
+    //Just for fun commenting. Mast car parking we can do
 
     @Override
     public void getParkingLotStatusController() {
